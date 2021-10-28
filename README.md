@@ -14,8 +14,7 @@
     ```
 
 ## ルーティングを設定
-- config/routes.rb
-    <code></code>
+- <code>https://github.com/HiroseKakeru/learn_api/blob/master/config/routes.rb</code>
 - rails routesで確認
     ```
     api_v1_items   GET    /api/v1/items(.:format)      api/v1/items#index
@@ -31,7 +30,7 @@
     - app/controllers/api/v1/items_controller.rb
 
 - コントローラにCRUDのactionを追加
-    <code></code>
+    <code>https://github.com/HiroseKakeru/learn_api/blob/master/app/controllers/api/v1/items_controller.rb</code>
 
 ## APIをrspecでテストする
 - Gemfileに追加
@@ -60,7 +59,7 @@
         end
         ```
 - テストコードを書く
-    <code></code>
+    <code>https://github.com/HiroseKakeru/learn_api/blob/master/spec/requests/api/v1/items_spec.rb</code>
 - テストを実行
     ```
     $ rspec
